@@ -7,7 +7,7 @@ public class GradeCalculator {
 		double sum = 0;
 		for (int i = 0 ; i < scores.length ; i++){
 			sum = sum + scores[i];
-			
+
 		// B implement code to return right output from sum
 		if(sum <= 100 && sum >= 0){
 			if (sum > 95) return 'A';
