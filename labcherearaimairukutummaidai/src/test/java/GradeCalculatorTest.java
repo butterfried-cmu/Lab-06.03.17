@@ -7,10 +7,10 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.number.IsCloseTo.closeTo;
 
-public class CurrencyTest {
+public class GradeCalculatorTest {
     @Test
     public void testCalculator(){
         GradeCalculator gc = new GradeCalculator();
-	assertThat(gc.calculate(25,28,32),is('B'));
+	    assertThat(gc.calculate(25,28,32),is('B'));
     }
 }
