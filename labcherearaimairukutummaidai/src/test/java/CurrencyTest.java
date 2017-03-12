@@ -18,7 +18,8 @@ public class CurrencyTest {
 	assertThat(currency.exchange("THB",66.0,"EUR"),closeTo(2.02,0.001));
         assertThat(currency.exchange("USD",1.0,"THB"),closeTo(33.0,0.001));
         assertThat(currency.exchange("USD",2.0,"EUR"),closeTo(2.02,0.001));
-	assertThat(currency.exchange("YO",2.0,"EUR"),is(Double.NaN));
-        assertThat(currency.exchange("THB",2.0,"YO"),is(Double.NaN));
+	assertThat(currency.exchange("YO",2.0,"USD"),is(Double.NaN));
+        assertThat(currency.exchange("USD",2.0,"YO"),is(Double.NaN));
+	assertThat(currency.exchange("YO",2.0,"YO"),is(Double.NaN));
     }
 }
