@@ -3,6 +3,11 @@
  */
 public class GradeCalculator {
     public char calculate(double... scores){
-		return '\0';
+
+		double sum = 0;
+		// A implement code to find summation of all scores to sum
+
+
+		// B implement code to return right output from sum
 	}
 }
