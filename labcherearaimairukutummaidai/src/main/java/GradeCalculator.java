@@ -5,7 +5,7 @@ public class GradeCalculator {
     public char calculate(double... scores){
 		// A implement code to find summation of all scores to sum
 		double sum = 0;
-		for (int i = 0 ; i < scores.length ; i++){
+		for (int i = 0 ; i < scores.length ; i++) {
 			sum = sum + scores[i];
 		}
 		// B implement code to return right output from sum
@@ -14,8 +14,8 @@ public class GradeCalculator {
 			if (sum > 80) return 'B';
 			if (sum > 60) return 'C';
 				return 'F';
-		}else {
-			return 'x';
-		}
+		}else if(sum < 0) return 'U';
+        return 'x';
+
     }
 }
