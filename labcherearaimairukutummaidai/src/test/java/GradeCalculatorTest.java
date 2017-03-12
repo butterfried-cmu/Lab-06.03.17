@@ -11,6 +11,9 @@ public class GradeCalculatorTest {
     @Test
     public void testCalculator(){
         GradeCalculator gc = new GradeCalculator();
-	    assertThat(gc.calculate(25,28,32),is('B'));
+	assertThat(gc.calculate(25,28,32),is('B'));
+        assertThat(gc.calculate(90),is('B'));
+	assertThat(gc.calculate(65,1),is('C'));
+        assertThat(gc.calculate(1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),is('C'));
     }
 }
