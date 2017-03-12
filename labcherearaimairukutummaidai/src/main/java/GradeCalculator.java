@@ -14,9 +14,8 @@ public class GradeCalculator {
 			if (sum > 80) return 'B';
 			if (sum > 60) return 'C';
 				return 'F';
-			}else {
-				return 'x';
-			}
+		}else {
+			return 'x';
 		}
-	}
+    }
 }
