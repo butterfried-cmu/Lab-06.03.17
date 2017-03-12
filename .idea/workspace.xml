@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e4775a41-4a22-4ed3-9af9-1e3387280cdd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/main/java/Currency.java" afterPath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/main/java/Currency.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/main/java/GradeCalculator.java" afterPath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/main/java/GradeCalculator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/GradeCalculatorTest.java" afterPath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/GradeCalculatorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java" afterPath="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <ignored path="$PROJECT_DIR$/labcherearaimairukutummaidai/target/" />
@@ -17,8 +15,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Lab-06.03.17$GradeCalculatorTest_testCalculator.coverage" NAME="GradeCalculatorTest.testCalculator Coverage Results" MODIFIED="1489345416485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Lab-06.03.17$CurrencyTest_testExchange.coverage" NAME="CurrencyTest.testExchange Coverage Results" MODIFIED="1489344452172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab-06.03.17$GradeCalculatorTest_testCalculator.coverage" NAME="GradeCalculatorTest.testCalculator Coverage Results" MODIFIED="1489345487338" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Lab-06.03.17$CurrencyTest_testExchange.coverage" NAME="CurrencyTest.testExchange Coverage Results" MODIFIED="1489345479285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,21 +37,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CurrencyTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CurrencyTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+            <state relative-caret-position="272">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GradeCalculatorTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GradeCalculatorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/GradeCalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+            <state relative-caret-position="255">
+              <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -86,8 +84,8 @@
       <list>
         <option value="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/GradeCalculatorTest.java" />
         <option value="$PROJECT_DIR$/labcherearaimairukutummaidai/src/main/java/GradeCalculator.java" />
-        <option value="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java" />
         <option value="$PROJECT_DIR$/labcherearaimairukutummaidai/src/main/java/Currency.java" />
+        <option value="$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java" />
       </list>
     </option>
   </component>
@@ -608,7 +606,7 @@
       <option name="presentableId" value="Default" />
       <updated>1489336447954</updated>
       <workItem from="1489340226921" duration="1516000" />
-      <workItem from="1489344188851" duration="1237000" />
+      <workItem from="1489344188851" duration="1303000" />
     </task>
     <servers />
   </component>
@@ -622,14 +620,11 @@
     <history-entry file="CurrencyTest_testExchange - 2017.03.13 at 01h 47m 33s.xml">
       <configuration name="CurrencyTest.testExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GradeCalculatorTest_testCalculator - 2017.03.13 at 01h 44m 18s.xml">
-      <configuration name="GradeCalculatorTest.testCalculator" configurationId="JUnit" />
+    <history-entry file="CurrencyTest_testExchange - 2017.03.13 at 02h 04m 35s.xml">
+      <configuration name="CurrencyTest.testExchange" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GradeCalculatorTest_testCalculator - 2017.03.13 at 01h 44m 35s.xml">
-      <configuration name="GradeCalculatorTest.testCalculator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GradeCalculatorTest_testCalculator - 2017.03.13 at 01h 45m 56s.xml">
-      <configuration name="GradeCalculatorTest.testCalculator" configurationId="JUnit" />
+    <history-entry file="CurrencyTest_testExchange - 2017.03.13 at 02h 04m 40s.xml">
+      <configuration name="CurrencyTest.testExchange" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GradeCalculatorTest_testCalculator - 2017.03.13 at 01h 46m 09s.xml">
       <configuration name="GradeCalculatorTest.testCalculator" configurationId="JUnit" />
@@ -643,12 +638,15 @@
     <history-entry file="GradeCalculatorTest_testCalculator - 2017.03.13 at 02h 03m 37s.xml">
       <configuration name="GradeCalculatorTest.testCalculator" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GradeCalculatorTest_testCalculator - 2017.03.13 at 02h 04m 48s.xml">
+      <configuration name="GradeCalculatorTest.testCalculator" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2753000" />
+    <option name="totallyTimeSpent" value="2819000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -660,7 +658,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10927505" sideWeight="0.49434572" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10927505" sideWeight="0.5056543" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Coverage" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10927505" sideWeight="0.5056543" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -794,21 +792,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/GradeCalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state relative-caret-position="272">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/CurrencyTest.java">
+    <entry file="file://$PROJECT_DIR$/labcherearaimairukutummaidai/src/test/java/GradeCalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
