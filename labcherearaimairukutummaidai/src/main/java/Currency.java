@@ -7,17 +7,28 @@ public class Currency {
     public double exchange (String sourceCurrency, double amount, String targetCurrency){
         return 0.0;
     }
-    private double bothIsNotUSD (String sourceCurrency, double amount, String targetCurrency){
-        if(sourceCurrency=="THB"){
+
+    private double bothIsNotUSD (String sourceCurrency, double amount, String targetCurrency) {
+        if (sourceCurrency == "THB") {
             // THB -> USD
-            amount = amount/33.0;
+            amount = amount / 33.0;
             // USD -> EUR
             amount = amount * 1.01;
             return amount;
-        }else if(sourceCurrency=="EUR"){
+        } else if (sourceCurrency == "EUR") {
             amount = amount / 1.01;
             amount = amount * 33;
             return amount;
         }
+    }
+
+    private double sourceIsUSD (String sourceCurrency, double amount, String targetCurrency){
+	    if(targetCurrency=="THB"){
+		    amount = amount * 33.0;
+		    return amount;
+	    }else{
+		    amount = amount * 1.01;
+		    return amount;
+	    }
     }
 }
