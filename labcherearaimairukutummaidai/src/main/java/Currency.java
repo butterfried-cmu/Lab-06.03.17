@@ -1,5 +1,3 @@
-package utility;
-
 /**
  * Created by CAMT on 6/3/2560.
  */
@@ -8,11 +6,11 @@ public class Currency {
         if(sourceCurrency == targetCurrency){
 		return amount;
 	}else if (sourceCurrency == "USD"){
-		return sourceIsUSD(String sourceCurrency, double amount, String targetCurrency);
+		return sourceIsUSD(sourceCurrency,amount,targetCurrency);
 	}else if (targetCurrency == "USD"){
-		return targetIsUSD(String sourceCurrency, double amount, String targetCurrency);
+		return targetIsUSD(sourceCurrency,amount,targetCurrency);
 	}else{
-		return bothIsNotUSD(String sourceCurrency, double amount, String targetCurrency);
+		return bothIsNotUSD(sourceCurrency,amount,targetCurrency);
 	}
     }
 
@@ -31,7 +29,7 @@ private double targetIsUSD (String sourceCurrency, double amount, String targetC
             amount = amount / 33.0;
             amount = amount * 1.01;
             return amount;
-        } else if (sourceCurrency == "EUR") {
+        }else {
             amount = amount / 1.01;
             amount = amount * 33;
             return amount;
